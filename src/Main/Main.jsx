@@ -10,7 +10,7 @@ const Main = () => {
             <div className='sticky top-0'>
                 <Navigation></Navigation>
             </div>
-            <div className='my-20'>
+            <div className='my-5 md:my-7 lg:my-10'>
                 <Outlet></Outlet>
             </div>
             <div className='mt-10 '>
