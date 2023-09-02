@@ -20,11 +20,11 @@ const Navigation = () => {
                     </div>
                     <div className="hidden sm:block md:hidden lg:block">
                         <ul className="flex space-x-6">
-                            <li className="text-gray-600 hover:text-black font-semibold w-28 text-center bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 border-2 border-orange-300 hover:border-orange-500 hover:bg-white py-2 px-2"><a href="/">Home</a></li>
-                            <li className="text-gray-600 hover:text-black font-semibold w-28 text-center bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 border-2 border-orange-300 hover:border-orange-500 hover:bg-white py-2 px-2"><a href="#">About Us</a></li>
-                            <li className="text-gray-600 hover:text-black font-semibold w-28 text-center bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 border-2 border-orange-300 hover:border-orange-500 hover:bg-white py-2 px-2"><a href="#">Courses</a></li>
-                            <li className="text-gray-600 hover:text-black font-semibold w-28 text-center bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 border-2 border-orange-300 hover:border-orange-500 hover:bg-white py-2 px-2"><a href="#">Blog</a></li>
-                            <li className="text-gray-600 hover:text-black font-semibold w-28 text-center bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 border-2 border-orange-300 hover:border-orange-500 hover:bg-white py-2 px-2"><a href="#">Contact</a></li>
+                            <li className="text-gray-600 hover:text-black font-semibold w-28 text-center bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 border-2 border-white hover:border-orange-500 hover:bg-white py-2 px-2"><a href="/">Home</a></li>
+                            <li className="text-gray-600 hover:text-black font-semibold w-28 text-center bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 border-2 border-white hover:border-orange-500 hover:bg-white py-2 px-2"><a href="#">About Us</a></li>
+                            <li className="text-gray-600 hover:text-black font-semibold w-28 text-center bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 border-2 border-white hover:border-orange-500 hover:bg-white py-2 px-2"><a href="#">Courses</a></li>
+                            <li className="text-gray-600 hover:text-black font-semibold w-28 text-center bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 border-2 border-white hover:border-orange-500 hover:bg-white py-2 px-2"><a href="#">Blog</a></li>
+                            <li className="text-gray-600 hover:text-black font-semibold w-28 text-center bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 border-2 border-white hover:border-orange-500 hover:bg-white py-2 px-2"><a href="#">Contact</a></li>
                         </ul>
                     </div>
                     <div className="md:hidden">
@@ -50,9 +50,9 @@ const Navigation = () => {
             {mobileMenuOpen && (
                 <div id="mobile-menu" className="md:hidden">
                     <ul className="bg-white py-2 px-4  text-center grid grid-cols-2 gap-5">
-                        <li><a className="block py-2 font-semibold hover:bg-orange-500 bg-orange-500 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 text-white" href="#">Home</a></li>
-                        <li><a className="block py-2 font-semibold hover:bg-orange-500 bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 text-white" href="#">About Us</a></li>
-                        <li><a className="block py-2 font-semibold hover:bg-orange-500 bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 text-white " href="#">Courses</a></li>
+                        <li><a className="block py-2 font-semibold hover:bg-orange-500 text-white bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 " href="#">Home</a></li>
+                        <li><a className="block py-2 font-semibold hover:bg-orange-500 text-white bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 " href="#">About Us</a></li>
+                        <li><a className="block py-2 font-semibold hover:bg-orange-500 text-white bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105  " href="#">Courses</a></li>
                         <li><a className="block py-2 font-semibold hover:bg-orange-500 text-white bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105" href="#">Blog</a></li>
                         <li><a className="block py-2 font-semibold hover:bg-orange-500 text-white bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105" href="#">Contact</a></li>
                         <li><button className="border-2 border-orange-400 transition-all duration-500 hover:scale-105 hover:bg-white text-black py-2 px-3 rounded-md" type="submit">
