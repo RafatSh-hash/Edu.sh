@@ -12,7 +12,7 @@ const Navigation = () => {
     }
 
     return (
-        <div className="w-full">
+        <div className="bg-white w-full py-2">
             <div className=" mx-auto px-4 py-2 sm:px-6 lg:px-8">
                 <nav className="flex items-center justify-between">
                     <div className="flex-shrink-0">
@@ -20,7 +20,7 @@ const Navigation = () => {
                     </div>
                     <div className="hidden sm:block md:hidden lg:block">
                         <ul className="flex space-x-6">
-                            <li className="text-gray-600 hover:text-black font-semibold w-28 text-center bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 border-2 border-orange-300 hover:border-orange-500 hover:bg-white py-2 px-2"><a href="#">Home</a></li>
+                            <li className="text-gray-600 hover:text-black font-semibold w-28 text-center bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 border-2 border-orange-300 hover:border-orange-500 hover:bg-white py-2 px-2"><a href="/">Home</a></li>
                             <li className="text-gray-600 hover:text-black font-semibold w-28 text-center bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 border-2 border-orange-300 hover:border-orange-500 hover:bg-white py-2 px-2"><a href="#">About Us</a></li>
                             <li className="text-gray-600 hover:text-black font-semibold w-28 text-center bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 border-2 border-orange-300 hover:border-orange-500 hover:bg-white py-2 px-2"><a href="#">Courses</a></li>
                             <li className="text-gray-600 hover:text-black font-semibold w-28 text-center bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 border-2 border-orange-300 hover:border-orange-500 hover:bg-white py-2 px-2"><a href="#">Blog</a></li>

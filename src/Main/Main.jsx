@@ -7,7 +7,7 @@ import Footer from '../Components/Footer/Footer';
 const Main = () => {
     return (
         <div>
-            <div className='sticky top-0'>
+            <div className='sticky z-50 top-0'>
                 <Navigation></Navigation>
             </div>
             <div className='my-5 md:my-7 lg:my-10'>

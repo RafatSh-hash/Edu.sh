@@ -1,0 +1,40 @@
+#bannerContainer {
+    background-image: url('../../../assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Green {
+    top: 10em;
+    right: 10em;
+    animation: zoom_in_out 3s alternate infinite;
+}
+
+.Red {
+    top: 11.5em;
+    right: 11.5em;
+    animation: zoom_in_out 3s alternate infinite;
+    animation-delay: 1s;
+}
+
+.Blue {
+    top: 13em;
+    right: 13em;
+    animation: zoom_in_out 3s alternate infinite;
+    animation-delay: 2s;
+}
+
+@keyframes zoom_in_out {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1.9);
+    }
+}
