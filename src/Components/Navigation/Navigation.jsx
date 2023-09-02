@@ -50,7 +50,7 @@ const Navigation = () => {
             {mobileMenuOpen && (
                 <div id="mobile-menu" className="md:hidden">
                     <ul className="bg-white py-2 px-4  text-center grid grid-cols-2 gap-5">
-                        <li><a className="block py-2 font-semibold hover:bg-orange-500 text-white bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 " href="#">Home</a></li>
+                        <li><a className="block py-2 font-semibold hover:bg-orange-500 text-white bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 " href="/">Home</a></li>
                         <li><a className="block py-2 font-semibold hover:bg-orange-500 text-white bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105 " href="#">About Us</a></li>
                         <li><a className="block py-2 font-semibold hover:bg-orange-500 text-white bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105  " href="#">Courses</a></li>
                         <li><a className="block py-2 font-semibold hover:bg-orange-500 text-white bg-orange-400 bg-opacity-40 rounded-md transition-all duration-500 hover:scale-105" href="#">Blog</a></li>
