@@ -12,8 +12,8 @@ const Navigation = () => {
     }
 
     return (
-        <div className="">
-            <div className="max-w-7xl mx-auto px-4 py-2 sm:px-6 lg:px-8">
+        <div className="w-full">
+            <div className=" mx-auto px-4 py-2 sm:px-6 lg:px-8">
                 <nav className="flex items-center justify-between">
                     <div className="flex-shrink-0">
                         <img src={Logo} className="w-40" alt="" />
