@@ -5,6 +5,7 @@ import { Outlet } from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
 
 const Main = () => {
+
     return (
         <div>
             <div className='sticky z-50 top-0'>
