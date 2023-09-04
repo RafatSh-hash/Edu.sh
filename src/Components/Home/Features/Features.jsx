@@ -40,7 +40,7 @@ const Features = () => {
                 <h1 className='text-2xl md:text-3xl lg:text-5xl text-center md:text-left lg:text-left text-orange-500'>Our Special <span className='text-black font-semibold'>Features</span></h1>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-14'>
-                {data.map(card => <Card card={card} key={data.title}></Card>)}
+                {data.map(card => <Card card={card} key={card.title}></Card>)}
             </div>
         </div>
     );

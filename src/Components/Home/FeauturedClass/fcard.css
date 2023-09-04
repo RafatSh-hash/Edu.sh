@@ -1,0 +1,22 @@
+.thumbContainer {
+    /* Set initial properties for the container */
+    width: 100%;
+    height: 65%;
+    /* 65% of the parent container's height */
+    overflow: hidden;
+    position: relative;
+    /* Needed for child absolute positioning */
+}
+
+.thumbContainer img {
+    /* Set initial properties for the image */
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    /* Add a smooth transition effect */
+}
+
+.thumbContainer:hover img {
+    /* Apply transformations on hover */
+    transform: rotate(-5deg) scale(1.1);
+}

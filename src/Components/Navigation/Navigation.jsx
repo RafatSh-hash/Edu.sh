@@ -14,6 +14,16 @@ const Navigation = () => {
     const toggleDarkMode = () => {
         !isDark ? setisDark(true) : setisDark(false);
         console.log(isDark);
+        // const currentTheme = document.documentElement.getAttribute("data-theme");
+
+        // if (currentTheme === "light") {
+        //     document.documentElement.setAttribute("data-theme", "dark");
+        //     setisDark(true);
+        // } else {
+        //     document.documentElement.setAttribute("data-theme", "light");
+        //     setisDark(false);
+        // }
+
     }
 
 
