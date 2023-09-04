@@ -6,7 +6,7 @@ const FeauturedClass = () => {
 
     const classData = [
         {
-            title: "Strategic Social Marketing ",
+            title: "Strategic Social Relationships ",
             teacher: "Parker",
             lessons: "15 Lessons",
             students: "25 Students",
@@ -38,7 +38,7 @@ const FeauturedClass = () => {
             thumb: "https://i.ibb.co/9HhvsxK/06.png"
         },
         {
-            title: "Three chapters of History",
+            title: "Era's of History",
             teacher: "Adam",
             lessons: "28 Lessons",
             students: "26 Students",
