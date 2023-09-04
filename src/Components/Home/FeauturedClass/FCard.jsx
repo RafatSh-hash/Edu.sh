@@ -10,7 +10,7 @@ const FCard = ({ cardF }) => {
     const { price, title, teacher, thumb, lessons, students } = cardF;
 
     return (
-        <div className=' border-2 border-gray-300 rounded-md overflow-hidden shadow-xl transition-all duration-500 hover:hover:-translate-y-3'>
+        <div className=' border-2 border-gray-300 rounded-xl overflow-hidden shadow-xl transition-all duration-500 hover:hover:-translate-y-3'>
             <div className='h-[65%] overflow-hidden thumbContainer'>
                 <img src={thumb} className='w-full h-full ' alt="" />
             </div>
