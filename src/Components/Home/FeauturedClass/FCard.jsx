@@ -10,7 +10,7 @@ const FCard = ({ cardF }) => {
     const { price, title, teacher, thumb, lessons, students } = cardF;
 
     return (
-        <div className=' border-2 border-gray-300 rounded-md overflow-hidden shadow-xl transition-all duration-500 hover:scale-105'>
+        <div className=' border-2 border-gray-300 rounded-md overflow-hidden shadow-xl transition-all duration-500 hover:hover:-translate-y-3'>
             <div className='h-[65%] overflow-hidden thumbContainer'>
                 <img src={thumb} className='w-full h-full ' alt="" />
             </div>
@@ -36,8 +36,8 @@ const FCard = ({ cardF }) => {
                         <h1 className='text-orange-500 mx-2'>{students}</h1>
                     </div>
                 </div>
-                <hr className='w-[90%] mx-auto' />
-                <div className='flex justify-between items-center bottom-0'>
+                <hr className='w-[90%] mx-auto h-2 my-2' />
+                <div className='flex justify-between items-center'>
                     <div className='w-[50%]'>
                         Rating
                     </div>

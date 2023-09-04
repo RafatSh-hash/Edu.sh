@@ -35,7 +35,7 @@ const FeauturedClass = () => {
             lessons: "15 Lessons",
             students: "25 Students",
             price: "$29.99",
-            thumb: "https://i.ibb.co/Gv3xyZT/05.png"
+            thumb: "https://i.ibb.co/9HhvsxK/06.png"
         },
         {
             title: "Three chapters of History",
@@ -51,7 +51,7 @@ const FeauturedClass = () => {
             lessons: "46 Lessons",
             students: "75 Students",
             price: "$69.99",
-            thumb: "https://i.ibb.co/Gv3xyZT/05.png"
+            thumb: "https://i.ibb.co/HDW0hjS/01.png"
         }
     ]
     return (
