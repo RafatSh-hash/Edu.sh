@@ -1,0 +1,8 @@
+#ApplySection {
+    background-image: url('../../../assets/banner.jpg');
+    /* Replace with your banner image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
