@@ -9,7 +9,8 @@ const Eventcard = ({ event }) => {
     return (
 
         <div className='flex flex-col md:flex-row lg:flex-row justify-center items-center py-2 px-5 border-2 border-gray-200 rounded-xl shadow-xl my-5'>
-            <div className='w-full md:w-[10%] lg:w-[10%] bg-gray-200 rounded-2xl'>
+            <div className='w-full md:w-[10%] lg:w-[10%] border-4 border-r-orange-500
+             border-l-white border-t-white border-b-white'>
                 <div className='flex flex-col items-center justify-center p-2'>
                     <div className='w-14 h-14 rounded-full my-2'>
                         <img src={hostImg} className='w-full h-full' alt="" />
