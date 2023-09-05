@@ -4,6 +4,7 @@ import Banner from './Banner/Banner';
 import Features from './Features/Features';
 import FeauturedClass from './FeauturedClass/FeauturedClass';
 import Apply from './Apply/Apply';
+import EventSchedule from './EventSchedule/EventSchedule';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Features></Features>
             <FeauturedClass></FeauturedClass>
             <Apply></Apply>
+            <EventSchedule></EventSchedule>
         </div>
     );
 };
