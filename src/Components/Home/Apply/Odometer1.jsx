@@ -20,7 +20,7 @@ const Odometer1 = () => {
   }, [currentPercentage]);
 
   return (
-    <div className='flex flex-col w-48 h-44 justify-center items-center bg-white bg-opacity-20 rounded-md'>
+    <div className='flex flex-col w-48 h-44 justify-center items-center bg-white bg-opacity-20 rounded-md transition-all duraion-50 hover:scale-105 hover:bg-opacity-30'>
 
       <h1 className='text-4xl text-orange-500 font-semibold'>{`${currentPercentage}`}+ </h1>
       <p className='text-xl text-white font-semibold'>Teachers</p>
