@@ -5,6 +5,7 @@ import Features from './Features/Features';
 import FeauturedClass from './FeauturedClass/FeauturedClass';
 import Apply from './Apply/Apply';
 import EventSchedule from './EventSchedule/EventSchedule';
+import OurTeachers from './OurTeachers/OurTeachers';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <FeauturedClass></FeauturedClass>
             <Apply></Apply>
             <EventSchedule></EventSchedule>
+            <OurTeachers></OurTeachers>
         </div>
     );
 };
