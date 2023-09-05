@@ -28,17 +28,17 @@ const Apply = () => {
                 <div className='bg-[#ffffff] p-5 rounded-md w-96 shadow-2xl'>
                     <form action="">
                         <div className='relative'>
-                            <label htmlFor="name" className='absolute left-3 top-5 pb-4'>Full Name</label>
+                            <label htmlFor="name" className='absolute left-3 top-5 pb-4 text-sm'>Full Name</label>
                             <label htmlFor="userIcon"><img src={userIcon} className='w-5 h-5 absolute right-3 top-5' alt="" /></label>
                             <input type="text" name="userName" className='bg-[#f4f7fc] text-sm border-2 border-black rounded-md py-6 bottom-0 mt-4 px-3  w-full' id="" />
                         </div>
                         <div className='relative'>
-                            <label htmlFor="name" className='absolute left-3 top-5 pb-4'>Email</label>
+                            <label htmlFor="name" className='absolute left-3 top-5 pb-4 text-sm'>Email</label>
                             <label htmlFor="userIcon"><img src={email} className='w-5 h-5 absolute right-3 top-5' alt="" /></label>
                             <input type="email" name="userName" className='bg-[#f4f7fc] text-sm border-2 border-black rounded-md py-6 bottom-0 mt-4 px-3  w-full' id="" />
                         </div>
                         <div className='relative'>
-                            <label htmlFor="name" className='absolute left-3 top-5 pb-4'>Phone</label>
+                            <label htmlFor="name" className='absolute left-3 top-5 pb-4 text-sm'>Phone</label>
                             <label htmlFor="userIcon"><img src={telephone} className='w-5 h-5 absolute right-3 top-5' alt="" /></label>
                             <input type="number" name="userName" className='bg-[#f4f7fc] text-sm border-2 border-black rounded-md py-6 bottom-0 mt-4 px-3  w-full' id="" />
                         </div>
