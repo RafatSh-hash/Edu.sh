@@ -58,7 +58,7 @@ const EventSchedule = () => {
 
     return (
         <div>
-            <div className='flex flex-col md:flex-row lg:flex-row items-center justify-between'>
+            <div className='flex flex-col md:flex-row lg:flex-row items-center justify-between mt-10'>
                 <div>
                     <h3 className='text-2xl text-green-400 text-center md:text-left lg:text-left'>Upcoming Events</h3>
                     <h1 className='text-2xl md:text-3xl lg:text-5xl text-center md:text-left lg:text-left text-orange-500'>Event <span className='text-black font-semibold'>Details</span></h1>
