@@ -1,0 +1,20 @@
+.slick-prev {
+    left: -52px !important;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    content: "" !important;
+}
+
+.next-slick-arrow,
+.prev-slick-arrow {
+    color: #000000;
+    font-size: 45px;
+}
+
+.content {
+    /* text-align: center; */
+    margin-bottom: 30px;
+
+}

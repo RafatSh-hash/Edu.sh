@@ -6,6 +6,7 @@ import FeauturedClass from './FeauturedClass/FeauturedClass';
 import Apply from './Apply/Apply';
 import EventSchedule from './EventSchedule/EventSchedule';
 import OurTeachers from './OurTeachers/OurTeachers';
+import Reviews from './Reviews/Reviews';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Apply></Apply>
             <EventSchedule></EventSchedule>
             <OurTeachers></OurTeachers>
+            <Reviews></Reviews>
         </div>
     );
 };

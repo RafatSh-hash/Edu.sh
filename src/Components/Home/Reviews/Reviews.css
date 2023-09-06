@@ -1,0 +1,7 @@
+ .review {
+     background-image: url('../../../assets/04.png');
+
+     /* Set the background size and other properties as needed */
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
